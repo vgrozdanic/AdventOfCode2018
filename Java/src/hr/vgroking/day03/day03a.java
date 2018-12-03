@@ -2,7 +2,7 @@ package hr.vgroking.day03;
 
 import java.util.ArrayList;
 
-public class day01a {
+public class day03a {
 
 	public static void main(String[] args) {
 		int id, leftEdge = 0, topEdge = 0, width, height;
