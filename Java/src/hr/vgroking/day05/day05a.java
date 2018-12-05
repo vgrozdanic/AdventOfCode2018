@@ -8,7 +8,11 @@ public class day05a {
 	private static String input;
 	private static int length;
 	
-	private static int remainingUnits() {
+	public static char XOR (char c) {
+		return (char) ((int)c ^ 32);
+	}
+	
+	public static int remainingUnits(String input, int length) {
 		Stack<Character> stack = new Stack<>();
 		
 		for (int i=0; i<length; i++) {
@@ -46,7 +50,7 @@ public class day05a {
 		input = sc.next();
 		length = input.length();
 		
-		System.out.println("New length: " + remainingUnits());
+		System.out.println("New length: " + remainingUnits(input, length));
 	}
 
 }
