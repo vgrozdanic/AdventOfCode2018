@@ -59,8 +59,6 @@ public class day07a {
 			}
 		}
 		
-		System.out.println(output);
-		
-		
+		System.out.println(output);		
 	}
 }
